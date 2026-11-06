@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "solve-to-watch"
+rootProject.name = "B-SolveToWatch"
 include ':app'

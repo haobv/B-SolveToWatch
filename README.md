@@ -17,7 +17,7 @@ Repo này không cần bạn tự build. Bạn chỉ cần một **trợ lý AI 
 (Claude Code, Codex, Gemini CLI…) và nói với nó một câu:
 
 ```
-Lấy repo https://github.com/haobv/solve-to-watch về và làm theo hướng dẫn trong đó.
+Lấy repo https://github.com/haobv/B-SolveToWatch về và làm theo hướng dẫn trong đó.
 ```
 
 AI sẽ tự đọc repo, hỏi bạn vài câu để làm đúng cho nhà mình, rồi cài lên TV và thử cho bạn xem.
@@ -75,5 +75,5 @@ Nhờ AI: *"Gỡ Solve to Watch khỏi TV"*. Hoặc tự chạy `TV_HOST=<ip c�
 
 **English:** an Android TV app for kids: after each round of YouTube (15 minutes by default) the video pauses and
 GuGu the penguin asks math questions; three right answers in a row and the video plays on. It is set up by your
-AI coding assistant: tell it *"clone https://github.com/haobv/solve-to-watch and follow its instructions"*.
+AI coding assistant: tell it *"clone https://github.com/haobv/B-SolveToWatch and follow its instructions"*.
 Agents start at [AGENTS.md](AGENTS.md).
