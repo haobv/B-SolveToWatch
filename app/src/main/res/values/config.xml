@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Personalise the app here (AGENTS.md, step 4). Everything else follows from these values.
+    minutes, streak and PIN are only first-run defaults: the parent changes them on the TV afterwards.
+-->
+<resources>
+    <!-- Apps that count towards a round. Package names as `pm list packages` prints them. -->
+    <string-array name="gated_packages" translatable="false">
+        <item>com.google.android.youtube.tv</item>
+    </string-array>
+
+    <!-- Minutes of watching per round. Must be one of Prefs.MINUTE_CHOICES: 1, 5, 10, 15, 20, 30, 45, 60. -->
+    <integer name="default_minutes">15</integer>
+
+    <!-- Correct answers in a row needed to unlock (1 to 5). A wrong answer starts the count again. -->
+    <integer name="default_streak">3</integer>
+
+    <!-- School grade of the questions. Supported grades: MathQuestion.GRADES. -->
+    <integer name="grade">3</integer>
+
+    <!-- First-run parent PIN. Ask the parent to change it on the TV; never write their real PIN here. -->
+    <string name="default_pin" translatable="false">0000</string>
+</resources>

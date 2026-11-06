@@ -1,0 +1,13 @@
+# Build output and machine-specific paths
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+.idea/
+*.iml
+.DS_Store
+
+# A family's own files: photos, the child's name, notes. Never published.
+family/*
+!family/README.md

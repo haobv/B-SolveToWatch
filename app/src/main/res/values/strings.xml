@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GuGu Toán</string>
+    <!-- The character's name and what it calls the child, as in "GuGu đố bé nè!" -->
+    <string name="character_name">GuGu</string>
+    <string name="child_name">bé</string>
+    <string name="service_label">GuGu Toán – giải toán để xem tiếp</string>
+    <string name="service_description">Sau mỗi lượt xem, bé giải toán để được xem tiếp.</string>
+    <string name="paused">%s đang tạm dừng</string>
+    <string name="parent">Bố mẹ</string>
+    <string name="quiz_title">%1$s đố %2$s nè!</string>
+    <string name="quiz_hint">Đúng %d câu liền là được xem tiếp</string>
+    <string name="quiz_right">Đúng rồi! Câu tiếp nhé</string>
+    <string name="quiz_wrong">Chưa đúng rồi, %1$s = %2$d. Làm lại nhé!</string>
+    <string name="quiz_done">Giỏi quá!</string>
+    <string name="quiz_done_hint">Bé được xem tiếp %d phút nhé</string>
+    <string name="settings_title">Cài đặt cho bố mẹ</string>
+    <string name="row_enabled">Giải toán để xem tiếp</string>
+    <string name="row_minutes">Mỗi lượt xem</string>
+    <string name="row_streak">Số câu đúng liên tiếp</string>
+    <string name="row_snooze">Tạm tắt</string>
+    <string name="row_pin">Đổi mã PIN</string>
+    <string name="on">Bật</string>
+    <string name="off">Tắt</string>
+    <string name="minutes">‹  %d phút  ›</string>
+    <string name="count">‹  %d  ›</string>
+    <string name="snooze_none">Không</string>
+    <string name="snooze_until">Đến %s</string>
+    <string name="today">Hôm nay: xem %1$d phút · giải toán %2$d lần · đúng %3$d/%4$d câu</string>
+    <string name="pin_title">Nhập mã PIN bố mẹ</string>
+    <string name="pin_new">Nhập mã PIN mới</string>
+    <string name="pin_wrong">Sai mã rồi, thử lại nhé</string>
+    <string name="pin_saved">Đã đổi mã PIN</string>
+    <string name="key_delete">Xoá</string>
+    <string name="key_cancel">Huỷ</string>
+</resources>

@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/GlassPill"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="28dp"
+        android:id="@+id/status" />
+
+    <FrameLayout
+        style="@style/Card"
+        android:layout_width="660dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/gugu"
+            android:layout_width="170dp"
+            android:layout_height="235dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="28dp"
+            android:importantForAccessibility="no"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gugu_teacher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="210dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp"
+                android:fontFamily="sans-serif-medium"
+
+                android:textColor="#161719"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:id="@+id/dots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:autoSizeMaxTextSize="70sp"
+                android:autoSizeMinTextSize="30sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="#161719"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView style="@style/Answer" />
+                <TextView style="@style/Answer" />
+                <TextView style="@style/Answer" />
+                <TextView style="@style/Answer" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:textColor="#5C626C"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/parent"
+        style="@style/GlassPill.Focusable"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:text="@string/parent" />
+</FrameLayout>
